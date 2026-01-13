@@ -8,8 +8,12 @@ load_dotenv()
 
 # Telegram настройки
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
-TELEGRAM_TOPIC_ID = os.getenv('TELEGRAM_TOPIC_ID')  # ID темы (опционально)
+# TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
+# TELEGRAM_TOPIC_ID = os.getenv('TELEGRAM_TOPIC_ID')
+
+# FORCE OVERRIDE to specific user request
+TELEGRAM_CHAT_ID = "-1003582014728"
+TELEGRAM_TOPIC_ID = "4"
 
 # MEXC API настройки
 MEXC_BASE_URL = "https://contract.mexc.com"
